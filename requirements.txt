@@ -1,0 +1,15 @@
+requests
+isodate
+docstring-parser
+colorlog
+websocket-client
+flake8
+twine
+wheel
+tox
+pytest
+coverage
+motor
+pymongo
+chat-downloader
+scrapetube
