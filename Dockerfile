@@ -10,4 +10,4 @@ RUN pip install -r requirements.txt
 
 # Run the application:
 COPY /code/chatdb.py .
-CMD ["${VIRTUAL_ENV}/python", "slapped-ham.py"]
+CMD ["${VIRTUAL_ENV}/python", "chatdb.py"]
