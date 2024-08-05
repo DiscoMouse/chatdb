@@ -32,7 +32,7 @@ def monitor():
 
 def chatdb(url):
     client = MongoClient("mongodb://root:example@localhost:27017/")
-    db = client.slappedham
+    db = client.chatdb
     collection = db.messages
     chat = ChatDownloader().get_chat(url)
     for message in chat:                        # iterate over messages
